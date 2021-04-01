@@ -10,7 +10,7 @@ numero = int(input("chuta um número de 1 a 10: "))
 
 if numero == numero_secreto:
     print("Acertou!!!")
-if not numero == numero_secreto:
+else:
     print("Errou")
 
 print(f'O numero da maquina é {numero_secreto}')
