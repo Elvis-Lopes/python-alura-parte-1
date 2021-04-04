@@ -10,7 +10,11 @@ numero = int(input("chuta um número de 1 a 10: "))
 
 if numero == numero_secreto:
     print("Acertou!!!")
+elif numero > numero_secreto:
+    print("Errou")
+    print("O número da maquina é menor")
 else:
     print("Errou")
+    print("O número da maquina é maior")
 
 print(f'O numero da maquina é {numero_secreto}')
